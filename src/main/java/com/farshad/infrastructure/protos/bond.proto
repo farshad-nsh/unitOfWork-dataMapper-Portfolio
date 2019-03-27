@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "generated.domain";
+option java_outer_classname = "BondProtos";
+
+
+message Bond {
+     string name=1;
+     string type=2;
+     double value=3;
+}
